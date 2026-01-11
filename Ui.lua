@@ -1,4 +1,4 @@
--- GHOST PRO V8 [ENGINE REWRITE - SOLARA STYLE]
+-- GHOST PRO V8 [ENGINE REWRITE 
 local UIS = game:GetService("UserInputService")
 local TS = game:GetService("TweenService")
 local Players = game:GetService("Players")
@@ -403,3 +403,4 @@ No.Parent = Warn
 No.MouseButton1Click:Connect(function() CreateTween(Warn, 0.2, {Size = UDim2.new(0, 260, 0, 0)}) task.wait(0.2) Warn.Visible = false end)
 Yes.MouseButton1Click:Connect(function() ScreenGui:Destroy() end)
 Close.MouseButton1Click:Connect(function() Warn.Visible = true CreateTween(Warn, 0.3, {Size = UDim2.new(0, 260, 0, 120)}) end)
+
